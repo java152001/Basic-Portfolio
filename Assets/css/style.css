@@ -25,9 +25,14 @@ body {
     left: 14.5%;
     color: #ffffff;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
     height: 100px;
+    text-align: center;
+}
+
+h1 {
+    margin: 5px;
 }
 
 #aboutme {
