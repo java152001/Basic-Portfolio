@@ -100,6 +100,7 @@ a {
 }
 
 #wrapper {
+    position: relative;
     width: 960px;
     line-height: 22px;
     margin: 0 auto;
@@ -112,8 +113,41 @@ a {
     margin-bottom: 40px;
 }
 
+#container {
+    position: relative;
+}
+
+#imglabel1 {
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    padding: 20px;
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 60px;
+}
+
+#imglabel2 {
+    position: absolute;
+    left: 185px;
+    bottom: 20px;
+    padding: 20px;
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 60px;
+    margin-left: 15px;
+}
+
 img {
     margin: 15px;
+}
+
+.portimage {
+    margin: 5px 15px;
 }
 
 footer{
